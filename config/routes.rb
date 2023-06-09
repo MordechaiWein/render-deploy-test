@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  get '/users', to: 'users#index'
   
   # Routing logic: fallback requests for React Router.
   # Leave this here to help deploy your app later!
