@@ -1,3 +1,5 @@
+User.destroy_all
+
 puts "seeding data..."
 
 User.create(name: 'Max', age: 10)
